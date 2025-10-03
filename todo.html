@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kegiatan Harian</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📅 List Harian</h1>
+
+    <div class="tabs">
+      <button class="tab active" data-day="senin">Senin</button>
+      <button class="tab" data-day="selasa">Selasa</button>
+      <button class="tab" data-day="rabu">Rabu</button>
+      <button class="tab" data-day="kamis">Kamis</button>
+      <button class="tab" data-day="jumat">Jumat</button>
+      <button class="tab" data-day="sabtu">Sabtu</button>
+      <button class="tab" data-day="minggu">Minggu</button>
+    </div>
+
+    <div class="card">
+      <div class="todo-list" id="senin">
+        <h2>Senin</h2>
+        <ul>
+          <li><input type="checkbox" id="senin1"><label for="senin1">Shalat Shubuh</label></li>
+          <li><input type="checkbox" id="senin2"><label for="senin2">Tahsin</label></li>
+          <li><input type="checkbox" id="senin3"><label for="senin3">Piket</label></li>
+          <li><input type="checkbox" id="senin4"><label for="senin4">Mandi</label></li>
+          <li><input type="checkbox" id="senin5"><label for="senin5">Sekolah</label></li>
+          <li><input type="checkbox" id="senin6"><label for="senin6">Shalat Dzuhur</label></li>
+          <li><input type="checkbox" id="senin7"><label for="senin7">Shalat Ashar</label></li>
+          <li><input type="checkbox" id="senin8"><label for="senin8">Shalat Maghrib</label></li>
+          <li><input type="checkbox" id="senin9"><label for="senin9">Shalat Isya</label></li>
+          <li><input type="checkbox" id="senin10"><label for="senin10">Tidur</label></li>
+        </ul>
+      </div>
+
+      <div class="todo-list hidden" id="selasa">
+        <h2>Selasa</h2>
+        <ul>
+          <li><input type="checkbox" id="selasa1"><label for="selasa1">Shalat Shubuh</label></li>
+          <li><input type="checkbox" id="selasa2"><label for="selasa2">Tahsin</label></li>
+          <li><input type="checkbox" id="selasa3"><label for="selasa3">Piket</label></li>
+          <li><input type="checkbox" id="selasa4"><label for="selasa4">Mandi</label></li>
+          <li><input type="checkbox" id="selasa5"><label for="selasa5">Sekolah</label></li>
+          <li><input type="checkbox" id="selasa6"><label for="selasa6">Shalat Dzuhur</label></li>
+          <li><input type="checkbox" id="selasa7"><label for="selasa7">Shalat Ashar</label></li>
+          <li><input type="checkbox" id="selasa8"><label for="selasa8">Shalat Maghrib</label></li>
+          <li><input type="checkbox" id="selasa9"><label for="selasa9">Shalat Isya</label></li>
+          <li><input type="checkbox" id="selasa10"><label for="selasa10">Tidur</label></li>
+        </ul>
+      </div>
+
+      <div class="todo-list hidden" id="rabu">
+        <h2>Rabu</h2>
+        <ul>
+          <li><input type="checkbox" id="rabu1"><label for="rabu1">Shalat Shubuh</label></li>
+          <li><input type="checkbox" id="rabu2"><label for="rabu2">Tahsin</label></li>
+          <li><input type="checkbox" id="rabu3"><label for="rabu3">Piket</label></li>
+          <li><input type="checkbox" id="rabu4"><label for="rabu4">Mandi</label></li>
+          <li><input type="checkbox" id="rabu5"><label for="rabu5">Sekolah</label></li>
+          <li><input type="checkbox" id="rabu6"><label for="rabu6">Shalat Dzuhur</label></li>
+          <li><input type="checkbox" id="rabu7"><label for="rabu7">Shalat Ashar</label></li>
+          <li><input type="checkbox" id="rabu8"><label for="rabu8">Shalat Maghrib</label></li>
+          <li><input type="checkbox" id="rabu9"><label for="rabu9">Shalat Isya</label></li>
+          <li><input type="checkbox" id="rabu10"><label for="rabu10">Tidur</label></li>
+        </ul>
+      </div>
+
+      <div class="todo-list hidden" id="kamis">
+        <h2>Kamis</h2>
+        <ul>
+          <li><input type="checkbox" id="kamis1"><label for="kamis1">Shalat Shubuh</label></li>
+          <li><input type="checkbox" id="kamis2"><label for="kamis2">Tahsin</label></li>
+          <li><input type="checkbox" id="kamis3"><label for="kamis3">Piket</label></li>
+          <li><input type="checkbox" id="kamis4"><label for="kamis4">Mandi</label></li>
+          <li><input type="checkbox" id="kamis5"><label for="kamis5">Sekolah</label></li>
+          <li><input type="checkbox" id="kamis6"><label for="kamis6">Shalat Dzuhur</label></li>
+          <li><input type="checkbox" id="kamis7"><label for="kamis7">Shalat Ashar</label></li>
+          <li><input type="checkbox" id="kamis8"><label for="kamis8">Shalat Maghrib</label></li>
+          <li><input type="checkbox" id="kamis9"><label for="kamis9">Shalat Isya</label></li>
+          <li><input type="checkbox" id="kamis10"><label for="kamis10">Tidur</label></li>
+        </ul>
+      </div>
+
+      <div class="todo-list hidden" id="jumat">
+        <h2>Jumat</h2>
+        <ul>
+          <li><input type="checkbox" id="jumat1"><label for="jumat1">Shalat Shubuh</label></li>
+          <li><input type="checkbox" id="jumat2"><label for="jumat2">Tahsin</label></li>
+          <li><input type="checkbox" id="jumat3"><label for="jumat3">Piket</label></li>
+          <li><input type="checkbox" id="jumat4"><label for="jumat4">Mandi</label></li>
+          <li><input type="checkbox" id="jumat5"><label for="jumat5">Sekolah</label></li>
+          <li><input type="checkbox" id="jumat6"><label for="jumat6">Shalat Dzuhur</label></li>
+          <li><input type="checkbox" id="jumat7"><label for="jumat7">Shalat Ashar</label></li>
+          <li><input type="checkbox" id="jumat8"><label for="jumat8">Shalat Maghrib</label></li>
+          <li><input type="checkbox" id="jumat9"><label for="jumat9">Shalat Isya</label></li>
+          <li><input type="checkbox" id="jumat10"><label for="jumat10">Tidur</label></li>
+        </ul>
+      </div>
+
+      <div class="todo-list hidden" id="sabtu">
+        <h2>Sabtu</h2>
+        <ul>
+          <li><input type="checkbox" id="sabtu1"><label for="sabtu1">Shalat Shubuh</label></li>
+          <li><input type="checkbox" id="sabtu2"><label for="sabtu2">Tahsin</label></li>
+          <li><input type="checkbox" id="sabtu3"><label for="sabtu3">Piket</label></li>
+          <li><input type="checkbox" id="sabtu4"><label for="sabtu4">Mandi</label></li>
+          <li><input type="checkbox" id="sabtu5"><label for="sabtu5">Sekolah</label></li>
+          <li><input type="checkbox" id="sabtu6"><label for="sabtu6">Shalat Dzuhur</label></li>
+          <li><input type="checkbox" id="sabtu7"><label for="sabtu7">Shalat Ashar</label></li>
+          <li><input type="checkbox" id="sabtu8"><label for="sabtu8">Shalat Maghrib</label></li>
+          <li><input type="checkbox" id="sabtu9"><label for="sabtu9">Shalat Isya</label></li>
+          <li><input type="checkbox" id="sabtu10"><label for="sabtu10">Tidur</label></li>
+        </ul>
+      </div>
+
+      <div class="todo-list hidden" id="minggu">
+        <h2>Minggu</h2>
+        <ul>
+          <li><input type="checkbox" id="minggu1"><label for="minggu1">Shalat Shubuh</label></li>
+          <li><input type="checkbox" id="minggu2"><label for="minggu2">Tahsin</label></li>
+          <li><input type="checkbox" id="minggu3"><label for="minggu3">Piket</label></li>
+          <li><input type="checkbox" id="minggu4"><label for="minggu4">Mandi</label></li>
+          <li><input type="checkbox" id="minggu5"><label for="minggu5">Sekolah</label></li>
+          <li><input type="checkbox" id="minggu6"><label for="minggu6">Shalat Dzuhur</label></li>
+          <li><input type="checkbox" id="minggu7"><label for="minggu7">Shalat Ashar</label></li>
+          <li><input type="checkbox" id="minggu8"><label for="minggu8">Shalat Maghrib</label></li>
+          <li><input type="checkbox" id="minggu9"><label for="minggu9">Shalat Isya</label></li>
+          <li><input type="checkbox" id="minggu10"><label for="minggu10">Tidur</label></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const tabs = document.querySelectorAll(".tab");
+    const lists = document.querySelectorAll(".todo-list");
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        tabs.forEach(t => t.classList.remove("active"));
+        tab.classList.add("active");
+
+        lists.forEach(list => list.classList.add("hidden"));
+        document.getElementById(tab.dataset.day).classList.remove("hidden");
+      });
+    });
+  </script>
+</body>
+</html>
